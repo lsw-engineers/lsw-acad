@@ -1,0 +1,64 @@
+\#ATTLAY
+\$AT&T CAD Tool - ATTLAY - "AT&T Layer Setup Tool"
+\KATTLAY;
+GENERAL INFORMATION & DISCLAIMERS\
+---------------------------------
+Written by John M. Volkar over the weekend of July 27-28 in response to several complaints by local consultants utilizing the AT&T CAD Specifcation.
+
+USE THIS UTILITY AT YOUR OWN RISK!  
+
+NO WARRENTY AS TO THE CORRECTNESS OR SUITABLITY OF THIS PROGRAM IS MADE.  YOUR USE OF THIS UTILITY INDICATES YOUR ACCEPANCE OF ALL RISK AND LIABILITY WHICH MAY BE ASSOCIATED WITH THE USE OF THIS PROGRAM.
+
+This utility is provided for limited use.  This utility is NOT Freeware, NOR Shareware, and is NOT freely distributable.  Individuals may not share this utility without permission of John M. Volkar as I do NOT want this to instigate a flood of email to me.  If you have this utility and did not recieve it from John M. Volkar you are Required to discard it and ignore its existance.
+
+CONSIDER THIS COPY TO BE AN EVALUATION (and BETA TEST) COPY ONLY.
+
+The above is in hopes that AT&T will either independantly develope a similar tool or adopt and distribute thsi one.  (This utility is not as robust and bullet proof as I, as its author, would like.  It should be tweaked in several places to get the speed up and to make it "know" about Record and Project drawing differences.)
+
+As previously stated, this utility was written in response to comments by several AE Firms whom have reason to be utilizing the AT&T CAD Specification and to demonstate the ease with which this, and similar, utilities can be written.
+
+John M. Volkar
+	Concept development    :   2 Hours\
+	Dialog Coding          :   2 Hours\
+	Guts Programming       :  16 Hours\
+	Data File Prep         :   0 Hours\
+	-----------------------------------\
+	 TOTAL EFFORT          :  20 Hours
+
+This is not much time to result in a (I think) VERY useful tool which makes creating a new AT&T Layered drawing MUCH easier.
+
+This utility is NOT FINISHED, in that the data file only contains the layers for the Architectural discipline drawings NOT including the Regen Hut and Vault Plans.  If anyone wants to utilize this utility fully they will have to provide a completed datafile.  The datafile format is specificaed at the head of the ATTLAY.DAT file.  I will most likely provide a complete datafile based on the next batch revision of the main specification and appendices which is currently underway (it will take everything in the main binder to revision 1.0).  Until then this is more or less just a demo of what can be done.
+
+regards\
+John M. Volkar
+
+
+
+TECHNICAL INFORMATION\
+---------------------
+1.	In the event of a crash this utility will provide a traceback, which is ugly and can be suppressed with an error handler in a full production version of this utility.  For this BETA distribution it is felt that the traceback will be helpful, so it is left alone.
+2.	The AT&T CAD Specification provides a custom linetype file which is assumed to be present in a searchable directory.  FOR DEMONSTRATION PURPOSES ONLY the last revision of that file is included with this utility.  If you know you have the "real" AT&T distributed copy on your machine, DELETE the copy with this utility.
+3.	Required files for this utility are:
+	  ATTLAY.LSP          Main LISP file\
+	  ATTLAY.DCL          Dialog control file\
+	  ATTLAY.AHP          Help file\
+	  ATTLAY.DAT          Layer Data file\
+	  ATTLAY.SLB          Slide library\
+	  ATTERR.LSP          Error Control/Utilities
+
+CONTACT\
+-------
+This program written to "demonstrate" the ease with which a utility program such as this can be written for the AT&T CAD specification.  Should there be any questions or requests for other custom programming please contact:
+	John M. Volkar\
+
+	1-412-225-6737 voice
+	1-412-225-6937 fax
+
+	104223.3567@compuserve.com
+
+
+
+
+
+.
+\E

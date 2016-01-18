@@ -1,0 +1,52 @@
+;;
+;; ATT_ACAD.LIN
+;; AT&T Standard Linetype Definition File
+;;
+;;   Created For: AT&T CAD Specification
+;;
+;;   Revision # : 0.0
+;;   Rev. Notes : Re-Released with AT&T CAD Spec Revison 0.2 dated 
+;;              : August 1 1996.  No changes were made to this file.
+;;              :
+;;              : Initial Release of this file, for AT&T CAD Spec
+;;              : release date of January 5, 1996
+;;              :
+;;              : This file defines linetype for all drawing types
+;;              : The styles defined here are based on the standard
+;;              : acad.lin linetypes of the same name.  Some new
+;;              : linetypes have been created for special use and
+;;              : are commented below.
+;;
+*BORDER,__ __ . __ __ . __ __ . __ __ . __ __ . __ __ . __ __ . __ __ .
+A,.5,-.25,.5,-.25,0,-.25
+*CENTER,____ _ ____ _ ____ _ ____ _ ____ _ ____ _ ____ _ ____ _ ____ _
+A,1.25,-.25,.25,-.25
+*DASHDOT,__ . __ . __ . __ . __ . __ . __ . __ . __ . __ . __ . __ . _
+A,.5,-.25,0,-.25
+*DASHED,__ __ __ __ __ __ __ __ __ __ __ __ __ __ __ __ __ __ __ __ __
+A,.5,-.25
+*DIVIDE,____ . . ____ . . ____ . . ____ . . ____ . . ____ . . ____ . .
+A,.5,-.25,0,-.25,0,-.25
+*DOT,. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+A,0,-.25
+*HIDDEN,__ __ __ __ __ __ __ __ __ __ __ __ __ __ __ __ __ __ __ __ __
+A,.25,-.125
+*PHANTOM,______  __  __  ______  __  __  ______  __  __  ______  __  __
+A,1.25,-.25,.25,-.25,.25,-.25
+;;
+;;  The following linetypes are for use in "T" (Telephony) drawings only.
+;;
+*VENTDUCT,.......
+A,0.25,-0.25
+*AUXFRMGL
+A,2,-0.25,0.50,-0.25
+*REFLINE
+A,16,-1,2,-1
+*DEMARC
+A,16,-1,2,-1,2,-1
+*ARMDCA
+A,2,-0.5,0.5,-0.5,0.5,-0.5
+*AUXFRMGA
+A,2,-0.5,0.5,-0.5,0.5,-0.5,0.5,-0.5
+*RAISEDFL
+A,0.125,-0.5

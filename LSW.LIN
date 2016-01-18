@@ -1,0 +1,5 @@
+;; [CODE_PAGE] ANSI_1252
+*LSW_One-line_Demo,Demolition Lines --/-- --/-- --/-- --/-- --/-- --/-- --/-- --/--
+A,.0625,["/",Standard,S=.125,R=0,X=-.02,Y=-.0625],.0625,-.0625
+*Detail Ground,Detail Ground
+A,5,-0.5

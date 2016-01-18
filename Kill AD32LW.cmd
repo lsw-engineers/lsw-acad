@@ -1,0 +1,1 @@
+Taskkill /IM AD32LW.exe /F
